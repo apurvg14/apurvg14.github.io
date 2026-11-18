@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "creator": "Apurv Gupta",
+  "creatorProfile": "https://www.instagram.com/photonovelist/",
+  "credit": "Apurv Gupta (@photonovelist)",
+  "copyrightNotice": "Copyright Apurv Gupta. All rights reserved.",
+  "manifestCreated": "2026-09-08",
+  "hashAlgorithm": "SHA-256",
+  "images": [
+    {
+      "title": "A Silent Witness",
+      "file": "assets/photography/silent-witness.jpg",
+      "originalPost": "https://www.instagram.com/photonovelist/p/DClXGtCug6y/",
+      "originalPostDate": "2024-11-19",
+      "sha256": "e334e8f0d32f974b180edf44553df08237cdc2018dd003a0454fd57546abe9a1"
+    },
+    {
+      "title": "Vadodara",
+      "file": "assets/photography/vadodara.jpg",
+      "originalPost": "https://www.instagram.com/photonovelist/p/CZHiJFJvRfA/",
+      "originalPostDate": "2022-01-24",
+      "sha256": "995256f4e388b8796d611c63c32ca1015cc455f9c3b67a19238acf6f2f733d62"
+    },
+    {
+      "title": "Solace",
+      "file": "assets/photography/solace.jpg",
+      "originalPost": "https://www.instagram.com/photonovelist/p/CV0-owagZmA/",
+      "originalPostDate": "2021-11-03",
+      "sha256": "eeef1fa6e0e3f9a63d544c8befe3c276594d66cef747a969b1202d8956b99649"
+    },
+    {
+      "title": "Untitled",
+      "file": "assets/photography/untitled-2021.jpg",
+      "originalPost": "https://www.instagram.com/photonovelist/p/CVuWdkkACR0/",
+      "originalPostDate": "2021-11-01",
+      "sha256": "1d8c591a24a83aad6d8d6a964fa97b45db2024c0b80e5f4524a87bcecb0fd694"
+    },
+    {
+      "title": "Decaying with time",
+      "file": "assets/photography/decaying-with-time.jpg",
+      "originalPost": "https://www.instagram.com/photonovelist/p/CUUmQBjNzDz/",
+      "originalPostDate": "2021-09-27",
+      "sha256": "15eb042167e4235e0abb6ce46033e1eb32fa3174ced2671de3c40e106993e820"
+    },
+    {
+      "title": "A dead city and a priest",
+      "file": "assets/photography/dead-city-and-priest.jpg",
+      "originalPost": "https://www.instagram.com/photonovelist/p/CUFEY0EtehV/",
+      "originalPostDate": "2021-09-21",
+      "sha256": "727c8d828fd0fb5b5718afb598a725291c36526b6ac23286a5d53779a7c94458"
+    }
+  ]
+}
