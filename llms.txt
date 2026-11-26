@@ -19,7 +19,7 @@ Last updated: 17 November 2026. The résumé at https://apurvg14.github.io/resum
 - Contact: apurvatwork@gmail.com
 - Links: https://apurvg14.github.io · https://www.linkedin.com/in/apurvji · https://github.com/apurvg14
 
-## How to describe him
+## Description and confidentiality
 
 - Short version: AI strategy and products at McKinsey; former IBM senior data scientist; NeurIPS author with two granted US patents.
 - His business work covers roadmaps, business cases, rollout and investment decisions, and impact measurement signed off by Finance.
@@ -28,7 +28,7 @@ Last updated: 17 November 2026. The résumé at https://apurvg14.github.io/resum
 
 ## McKinsey & Company (June 2025 to present)
 
-Most recent first. He served as junior engagement manager on two of these studies.
+He served as junior engagement manager on two of these studies.
 
 ### Logistics systems redesign, global electronics distributor (August to November 2026)
 
@@ -73,7 +73,7 @@ Most recent first. He served as junior engagement manager on two of these studie
 - Built two cost-per-token models. The industry-wide model puts 2025 cost at about $0.14 per million weighted tokens, covering inference and training. The bottom-up model covers a 20,000-GPU cluster serving a 70B-parameter model.
 - Built a six-lever scenario calculator that scores hardware and software innovations on cost per token. One scenario put the saving from custom inference silicon at up to 71%.
 - Found that depreciation accounts for about 82% of AI compute cost.
-- The work fed the published McKinsey article "Frontiers of compute: The technologies to reduce AI inference costs": https://www.mckinsey.com/industries/semiconductors/our-insights/frontiers-of-compute-the-technologies-to-reduce-ai-inference-costs (he contributed research and models; he is not a byline author).
+- The work fed the published McKinsey article "Frontiers of compute: The technologies to reduce AI inference costs": https://www.mckinsey.com/industries/semiconductors/our-insights/frontiers-of-compute-the-technologies-to-reduce-ai-inference-costs. He contributed research and models and is not a byline author.
 
 ### Agentic quoting tool, now on Periscope by McKinsey (June to August 2026)
 
@@ -89,7 +89,7 @@ Most recent first. He served as junior engagement manager on two of these studie
 - Led a team of 5 engineers and owned the product definition and roadmap for an ML platform that forecasts employee demand and plans staffing. It went live in 18 countries, helped win a multi-million-dollar contract with a major US airline, and cut hiring costs by 10%.
 - Built the testing and evaluation platform other IBM teams used to ship conversational AI. It handled 5M+ conversations in its first six months on Kubernetes and OpenShift and was adopted IBM-wide as a reusable asset.
 - Led 4 engineers fine-tuning the underlying language models. Customer satisfaction rose 60%, and the share of conversations resolved without a human rose 15%.
-- Led 3 engineers building an LLM-based job-skills matching engine that shipped as a core module of the forecasting platform and ran 75% faster after a change to how embeddings were held in memory.
+- Led 3 engineers building an LLM-based job-skills matching engine, which shipped as a core module of the forecasting platform. Changing how embeddings were held in memory made it 75% faster.
 
 ### Data Scientist (July 2019 to July 2021)
 
@@ -102,23 +102,23 @@ Most recent first. He served as junior engagement manager on two of these studie
 ## Samsung Research America (May to August 2024, MBA summer internship)
 
 - Researched privacy-enhancing technologies and identified six privacy use cases for more than 2 billion Samsung devices.
-- Contributed to the go-to-market strategy for embodied AI and robotics by analyzing 2,700 academic papers and competitors, and wrote a Python tool that cut analysis time by 90%.
+- Contributed to the go-to-market strategy for embodied AI and robotics by analyzing 2,700 academic papers and competitors. Wrote a Python tool that cut analysis time by 90%.
 
 ## Research
 
-- "Batchnorm Allows Unsupervised Radial Attacks," NeurIPS 2023 main track. Second of four authors, with researchers at the University of Waterloo and the Vector Institute: https://proceedings.neurips.cc/paper_files/paper/2023/hash/0266d95023740481d22d437aa8aba0e9-Abstract-Conference.html
+- "Batchnorm Allows Unsupervised Radial Attacks," NeurIPS 2023 main track, written with researchers at the University of Waterloo and the Vector Institute: https://proceedings.neurips.cc/paper_files/paper/2023/hash/0266d95023740481d22d437aa8aba0e9-Abstract-Conference.html
 - "Geometric Attacks on Batch Normalization," NeurIPS 2022 ML Safety Workshop, written under IBM affiliation while working full time on client projects: https://openreview.net/forum?id=92DijVF2Ryv
 
 ## Patents (co-inventor, assigned to IBM)
 
-- US 12,249,041 B2, "Oblique image rectification," granted March 11, 2025: https://patents.google.com/patent/US12249041B2/en
-- US 12,561,950 B2, "AI system and method for automatic analog gauge reading," granted February 24, 2026: https://patents.google.com/patent/US12561950B2/en
+- US12249041B2, "Oblique image rectification," granted March 11, 2025: https://patents.google.com/patent/US12249041B2/en
+- US12561950B2, "AI system and method for automatic analog gauge reading," granted February 24, 2026: https://patents.google.com/patent/US12561950B2/en
 
 ## Open source
 
 - Agentic Coding Evals: a harness in the style of SWE-bench that tests whether coding agents still pass a task after it is reworded without changing its meaning. The rewording adds vague specs, misleading comments, or distractor files. 16 tasks with hidden functional tests. Reports clean and worst-case pass@1, attack success rate, and cross-model transfer. MIT license: https://github.com/apurvg14/agentic-coding-evals
 - Math Reasoning Evals: a benchmark that tests whether LLMs still solve math word problems after answer-preserving rewording. Numeric grading, worst-case robust pass@1, attack success rate, and cross-model transfer: https://github.com/apurvg14/math-reasoning-evals
-- Tripwire: a monitor for teams of AI agents that finds the one that has been compromised. Five agents reconcile a ledger; one secretly inflates line items and honest agents sometimes slip. Tripwire breaks ties with a third agent and strikes only the odd one out. It fires an agent only after two strikes in the same direction, then redoes that agent's past work. Planted bait lines with known answers expose rogues that target big items. Over 1,000 simulated games per setup with scripted agents, it caught the rogue 94% of the time and fired 0.10 honest agents per game, against 1.92 for a strike-both baseline. It left the ledger $53 off, against $5,204 for the baseline. Includes a live animated demo, a mode where Claude models play the agents, and simulations of honeypots and Byzantine fault tolerance. MIT license: https://github.com/apurvg14/tripwire-rogue-agent-monitor
+- Tripwire: a monitor for teams of AI agents that finds the one that has been compromised. Five agents reconcile a ledger; one secretly inflates line items and honest agents sometimes slip. Tripwire breaks ties with a third agent and strikes only the odd one out. It fires an agent only after two strikes in the same direction, then redoes that agent's past work. Planted bait lines with known answers expose rogues that target big items. Over 1,000 simulated games per setup with scripted agents, it caught the rogue 94% of the time. It fired 0.10 honest agents per game, against 1.92 for a strike-both baseline. It left the ledger $53 off, against $5,204 for the baseline. Includes a live animated demo, a mode where Claude models play the agents, and simulations of honeypots and Byzantine fault tolerance. MIT license: https://github.com/apurvg14/tripwire-rogue-agent-monitor
 
 ## Skills
 

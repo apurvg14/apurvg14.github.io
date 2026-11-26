@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' data: https://aourvg.goatcounter.com; connect-src 'self' https://aourvg.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests" />
     <meta name="referrer" content="strict-origin-when-cross-origin" />
     <meta
       name="description"
@@ -23,10 +23,11 @@
     <link rel="alternate" type="text/plain" href="llms.txt" title="Profile for AI agents (llms.txt)" />
     <title>Apurv Gupta | AI strategy and products</title>
 
-    <script src="theme.js?v=20261117e"></script>
+    <script src="theme.js?v=20261125a"></script>
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css?v=20261117e" />
-    <script src="script.js?v=20261117e" defer></script>
+    <link rel="stylesheet" href="styles.css?v=20261125a" />
+    <script src="script.js?v=20261125a" defer></script>
+    <script src="count.js?v=20261125a" data-goatcounter="https://aourvg.goatcounter.com/count" async></script>
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -90,8 +91,8 @@
           </p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="resume.html">View résumé</a>
-            <a class="btn" href="mailto:apurvatwork@gmail.com">Email me</a>
-            <a class="btn" href="https://www.linkedin.com/in/apurvji" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a class="btn" href="mailto:apurvatwork@gmail.com" data-goatcounter-click="email-hero" data-goatcounter-title="Email (hero)">Email me</a>
+            <a class="btn" href="https://www.linkedin.com/in/apurvji" target="_blank" rel="noopener noreferrer" data-goatcounter-click="linkedin-hero" data-goatcounter-title="LinkedIn (hero)">LinkedIn</a>
           </div>
         </div>
 
@@ -216,39 +217,46 @@
               <h2 id="research-title">Papers, patents, and code</h2>
             </div>
           </div>
-          <div class="rows reveal">
-            <a class="row" href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/0266d95023740481d22d437aa8aba0e9-Abstract-Conference.html" target="_blank" rel="noopener noreferrer">
+          <div class="rows media reveal">
+            <a class="row" href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/0266d95023740481d22d437aa8aba0e9-Abstract-Conference.html" target="_blank" rel="noopener noreferrer" data-goatcounter-click="paper-neurips-2023" data-goatcounter-title="NeurIPS 2023 paper">
               <span class="when">NeurIPS 2023</span>
-              <h3>Batchnorm Allows Unsupervised Radial Attacks<span>Second of four authors</span></h3>
+              <span class="thumb"><img src="assets/research/neurips-2023-hypersphere.png" alt="Figure 1 of the paper: image latents on a hypersphere" width="288" height="216" loading="lazy" decoding="async" /></span>
+              <h3>Batchnorm Allows Unsupervised Radial Attacks<span>Main conference</span></h3>
               <p>Batch-normalized image models can be attacked without labels, using only intermediate representations. <span class="go">Paper ↗</span></p>
             </a>
-            <a class="row" href="https://openreview.net/forum?id=92DijVF2Ryv" target="_blank" rel="noopener noreferrer">
+            <a class="row" href="https://openreview.net/forum?id=92DijVF2Ryv" target="_blank" rel="noopener noreferrer" data-goatcounter-click="paper-neurips-2022-workshop" data-goatcounter-title="NeurIPS 2022 workshop paper">
               <span class="when">NeurIPS 2022</span>
+              <span class="thumb"><img src="assets/research/neurips-2022-attack-path.png" alt="Figure 1 of the paper: the attack path across the latent hypersphere" width="288" height="216" loading="lazy" decoding="async" /></span>
               <h3>Geometric Attacks on Batch Normalization<span>ML Safety Workshop</span></h3>
               <p>The workshop paper that led to the 2023 result. <span class="go">OpenReview ↗</span></p>
             </a>
-            <a class="row" href="https://patents.google.com/patent/US12561950B2/en" target="_blank" rel="noopener noreferrer">
+            <a class="row" href="https://patents.google.com/patent/US12561950B2/en" target="_blank" rel="noopener noreferrer" data-goatcounter-click="patent-US12561950B2" data-goatcounter-title="Patent US12561950B2">
               <span class="when">Patent, 2026</span>
-              <h3>US 12,561,950 B2<span>Co-inventor</span></h3>
+              <span class="thumb"><img src="assets/research/patent-gauge-reading.png" alt="Patent drawing: a pressure gauge after orientation correction" width="288" height="216" loading="lazy" decoding="async" /></span>
+              <h3>US12561950B2<span>Co-inventor</span></h3>
               <p>AI system and method for automatic analog gauge reading. <span class="go">Patent ↗</span></p>
             </a>
-            <a class="row" href="https://patents.google.com/patent/US12249041B2/en" target="_blank" rel="noopener noreferrer">
+            <a class="row" href="https://patents.google.com/patent/US12249041B2/en" target="_blank" rel="noopener noreferrer" data-goatcounter-click="patent-US12249041B2" data-goatcounter-title="Patent US12249041B2">
               <span class="when">Patent, 2025</span>
-              <h3>US 12,249,041 B2<span>Co-inventor</span></h3>
+              <span class="thumb"><img src="assets/research/patent-oblique-rectification.png" alt="Patent drawing: an oblique gauge photo next to its rectified version" width="288" height="216" loading="lazy" decoding="async" /></span>
+              <h3>US12249041B2<span>Co-inventor</span></h3>
               <p>Oblique image rectification. <span class="go">Patent ↗</span></p>
             </a>
-            <a class="row" href="https://github.com/apurvg14/agentic-coding-evals" target="_blank" rel="noopener noreferrer">
+            <a class="row" href="https://github.com/apurvg14/agentic-coding-evals" target="_blank" rel="noopener noreferrer" data-goatcounter-click="repo-agentic-coding-evals" data-goatcounter-title="Agentic Coding Evals repo">
               <span class="when">Open source</span>
+              <span class="thumb"><img src="assets/research/agentic-coding-evals.svg" alt="Grid of the 16 tasks: 3 fail once the spec is vague" width="288" height="216" loading="lazy" decoding="async" /></span>
               <h3>Agentic Coding Evals<span>MIT license</span></h3>
               <p>Tests whether coding agents still pass 16 hidden-test tasks after vague specs, misleading comments, or distractor files are added. <span class="go">GitHub ↗</span></p>
             </a>
-            <a class="row" href="https://github.com/apurvg14/math-reasoning-evals" target="_blank" rel="noopener noreferrer">
+            <a class="row" href="https://github.com/apurvg14/math-reasoning-evals" target="_blank" rel="noopener noreferrer" data-goatcounter-click="repo-math-reasoning-evals" data-goatcounter-title="Math Reasoning Evals repo">
               <span class="when">Open source</span>
+              <span class="thumb"><img src="assets/research/math-reasoning-evals.svg" alt="Grid of the 15 problems: 2 fail after rewording" width="288" height="216" loading="lazy" decoding="async" /></span>
               <h3>Math Reasoning Evals<span>Benchmark</span></h3>
               <p>Tests whether LLMs still solve math word problems after rewording that keeps the answer the same. <span class="go">GitHub ↗</span></p>
             </a>
-            <a class="row" href="https://github.com/apurvg14/tripwire-rogue-agent-monitor" target="_blank" rel="noopener noreferrer">
+            <a class="row" href="https://github.com/apurvg14/tripwire-rogue-agent-monitor" target="_blank" rel="noopener noreferrer" data-goatcounter-click="repo-tripwire" data-goatcounter-title="Tripwire repo">
               <span class="when">Open source</span>
+              <span class="thumb"><img src="assets/research/tripwire-office.jpg" alt="Tripwire demo: a third agent breaks the tie and flags the odd one out" width="288" height="216" loading="lazy" decoding="async" /></span>
               <h3>Tripwire<span>Agent safety</span></h3>
               <p>Finds the rogue agent in a team of AI bookkeepers. In 1,000 simulated games it fires 0.1 honest agents per game, against 1.9 for a strike-both baseline. <span class="go">GitHub ↗</span></p>
             </a>
@@ -309,12 +317,12 @@
           </div>
           <div class="reveal">
             <div class="email-row">
-              <a class="email" href="mailto:apurvatwork@gmail.com">apurvatwork@gmail.com</a>
-              <button class="btn copy-btn" type="button"><span class="label-text">Copy</span><span class="done">Copied</span></button>
+              <a class="email" href="mailto:apurvatwork@gmail.com" data-goatcounter-click="email-contact" data-goatcounter-title="Email (contact)">apurvatwork@gmail.com</a>
+              <button class="btn copy-btn" type="button" data-goatcounter-click="email-copy" data-goatcounter-title="Copy email"><span class="label-text">Copy</span><span class="done">Copied</span></button>
             </div>
             <div class="contact-links">
-              <a href="https://www.linkedin.com/in/apurvji" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
-              <a href="https://github.com/apurvg14" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+              <a href="https://www.linkedin.com/in/apurvji" target="_blank" rel="noopener noreferrer" data-goatcounter-click="linkedin-contact" data-goatcounter-title="LinkedIn (contact)">LinkedIn ↗</a>
+              <a href="https://github.com/apurvg14" target="_blank" rel="noopener noreferrer" data-goatcounter-click="github-contact" data-goatcounter-title="GitHub (contact)">GitHub ↗</a>
               <a href="resume.html">Résumé →</a>
             </div>
           </div>
@@ -330,7 +338,7 @@
           <a href="photography.html">Photography</a>
           <a href="travel.html">Travel</a>
           <a href="games.html">Games</a>
-          <a href="llms.txt" title="A plain-text profile for AI assistants and agents">llms.txt</a>
+          <a href="llms.txt" title="A plain-text profile for AI assistants and agents" data-goatcounter-click="llms-txt" data-goatcounter-title="llms.txt">llms.txt</a>
         </nav>
       </div>
     </footer>

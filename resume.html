@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' data: https://aourvg.goatcounter.com; connect-src 'self' https://aourvg.goatcounter.com; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests" />
     <meta name="referrer" content="strict-origin-when-cross-origin" />
     <meta name="description" content="Résumé for Apurv Gupta: data scientist and McKinsey associate, former IBM senior data scientist, Columbia MBA and MS in AI, IIT Kanpur." />
     <meta name="author" content="Apurv Gupta" />
@@ -18,10 +18,11 @@
     <link rel="alternate" type="text/plain" href="llms.txt" title="Profile for AI agents (llms.txt)" />
     <title>Résumé | Apurv Gupta</title>
 
-    <script src="theme.js?v=20261117e"></script>
+    <script src="theme.js?v=20261125a"></script>
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css?v=20261117e" />
-    <script src="script.js?v=20261117e" defer></script>
+    <link rel="stylesheet" href="styles.css?v=20261125a" />
+    <script src="script.js?v=20261125a" defer></script>
+    <script src="count.js?v=20261125a" data-goatcounter="https://aourvg.goatcounter.com/count" async></script>
   </head>
 
   <body>
@@ -60,15 +61,15 @@
             Mathematics &amp; Scientific Computing.
           </p>
           <div class="resume-actions">
-            <button class="btn btn-primary" type="button" data-print>Save as PDF</button>
-            <a class="btn" href="mailto:apurvatwork@gmail.com">Email me</a>
+            <button class="btn btn-primary" type="button" data-print data-goatcounter-click="resume-pdf" data-goatcounter-title="Save résumé as PDF">Save as PDF</button>
+            <a class="btn" href="mailto:apurvatwork@gmail.com" data-goatcounter-click="email-resume" data-goatcounter-title="Email (résumé)">Email me</a>
           </div>
         </div>
         <address>
           <span>San Francisco, CA</span>
           <a href="mailto:apurvatwork@gmail.com">apurvatwork@gmail.com</a>
-          <a href="https://www.linkedin.com/in/apurvji">linkedin.com/in/apurvji</a>
-          <a href="https://github.com/apurvg14">github.com/apurvg14</a>
+          <a href="https://www.linkedin.com/in/apurvji" data-goatcounter-click="linkedin-resume" data-goatcounter-title="LinkedIn (résumé)">linkedin.com/in/apurvji</a>
+          <a href="https://github.com/apurvg14" data-goatcounter-click="github-resume" data-goatcounter-title="GitHub (résumé)">github.com/apurvg14</a>
           <a href="https://apurvg14.github.io">apurvg14.github.io</a>
         </address>
       </header>
@@ -113,7 +114,7 @@
             <ul>
               <li><b>Computer vision, US chemical manufacturer.</b> Built an all-weather analog gauge reader, including the training dataset and the perspective-correction and reading models. Pruned it with NVIDIA TensorRT and deployed it on Boston Dynamics' Spot robot. Co-inventor on the resulting US patents.</li>
               <li><b>Workforce forecasting, sold to a major US airline.</b> Managed 5 direct reports building a hiring-demand forecasting platform live in 18 countries; applied time-series models to hiring and macroeconomic data, cutting hiring costs 10%.</li>
-              <li><b>Conversational AI, US health insurer.</b> Sole developer of the evaluation pipeline for a chatbot that handled 5M+ conversations in six months on Kubernetes/OpenShift, later adopted IBM-wide as the chatbot testing tool; led 4 engineers fine-tuning the chatbot models.</li>
+              <li><b>Conversational AI, US health insurer.</b> Sole developer of the evaluation pipeline for a chatbot that handled 5M+ conversations in six months on Kubernetes/OpenShift. IBM adopted it company-wide as its chatbot testing tool. Led 4 engineers fine-tuning the chatbot models.</li>
               <li>IBM Spark Award of Excellence as a new hire, one of two recipients in India.</li>
             </ul>
           </article>
@@ -124,8 +125,8 @@
         <h2 id="r-pub">Publications, patents, and open source</h2>
         <div>
           <p><b>Publications:</b> <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/0266d95023740481d22d437aa8aba0e9-Abstract-Conference.html">"Batchnorm Allows Unsupervised Radial Attacks,"</a> NeurIPS 2023; <a href="https://openreview.net/forum?id=92DijVF2Ryv">"Geometric Attacks on Batch Normalization,"</a> NeurIPS ML Safety Workshop 2022; both researched while working full time at IBM.</p>
-          <p><b>Patents (co-inventor):</b> <a href="https://patents.google.com/patent/US12249041B2/en">US 12,249,041 B2</a> (oblique image rectification) and <a href="https://patents.google.com/patent/US12561950B2/en">US 12,561,950 B2</a> (automatic analog gauge reading).</p>
-          <p><b>Open source:</b> <a href="https://github.com/apurvg14/agentic-coding-evals">Agentic Coding Evals</a> and <a href="https://github.com/apurvg14/math-reasoning-evals">Math Reasoning Evals</a>, measuring how LLM agents fail on reworded tasks; <a href="https://github.com/apurvg14/tripwire-rogue-agent-monitor">Tripwire</a>, a monitor that finds a rogue agent in a team of AI agents while firing 95% fewer honest agents than a strike-both baseline.</p>
+          <p><b>Patents:</b> co-inventor of <a href="https://patents.google.com/patent/US12249041B2/en">US12249041B2</a> (oblique image rectification) and <a href="https://patents.google.com/patent/US12561950B2/en">US12561950B2</a> (automatic analog gauge reading).</p>
+          <p><b>Open source:</b> <a href="https://github.com/apurvg14/agentic-coding-evals">Agentic Coding Evals</a> and <a href="https://github.com/apurvg14/math-reasoning-evals">Math Reasoning Evals</a> measure how LLM agents fail on reworded tasks. <a href="https://github.com/apurvg14/tripwire-rogue-agent-monitor">Tripwire</a> finds a rogue agent in a team of AI agents and fires 95% fewer honest agents than a strike-both baseline.</p>
         </div>
       </section>
 
