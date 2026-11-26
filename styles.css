@@ -1626,10 +1626,20 @@ a.card:hover {
     --accent: #111;
   }
 
+  @page {
+    size: letter;
+    margin: 0.5in 0.6in;
+  }
+
+  html {
+    font-size: 10.7pt;
+  }
+
   body {
     background: #fff;
     color: #111;
-    font-size: 10.5pt;
+    font-size: 10pt;
+    line-height: 1.42;
   }
 
   .header,
@@ -1649,8 +1659,46 @@ a.card:hover {
     color: #111;
   }
 
+  .resume-head {
+    gap: 1rem;
+    padding-bottom: 0.8rem;
+  }
+
+  .resume-head h1 {
+    font-size: 2rem;
+  }
+
+  .resume-head .summary {
+    max-width: none;
+    margin-top: 0.45rem;
+  }
+
   .r-section {
+    grid-template-columns: 6.6rem minmax(0, 1fr);
+    gap: 1rem;
+    padding: 0.75rem 0;
+  }
+
+  .r-role + .r-role {
+    margin-top: 0.85rem;
+  }
+
+  .r-role ul {
+    margin-top: 0.35rem;
+  }
+
+  .r-role li + li,
+  .r-list p + p {
+    margin-top: 0.22rem;
+  }
+
+  .r-role header,
+  .r-role .r-title {
+    break-after: avoid;
+  }
+
+  .r-role li,
+  .r-list p {
     break-inside: avoid;
-    padding: 0.7rem 0;
   }
 }
