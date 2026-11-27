@@ -49,7 +49,6 @@ He served as junior engagement manager on two of these studies.
 
 ### ERP data-access benchmark, global enterprise software company (March 2026)
 
-- Only associate on a seven-person, partner-led team; delivered in three weeks.
 - Benchmarked how four ERP platforms let customers extract their own data, using a 10-attribute scoring rubric across deployment models.
 - Designed and analyzed a 104-respondent survey of US enterprises and ran expert interviews with former platform practitioners.
 - Normalized four structurally different vendor pricing models into one comparable cost view.
