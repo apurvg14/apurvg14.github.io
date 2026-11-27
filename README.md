@@ -19,18 +19,19 @@ Then open `http://localhost:8000`.
 
 ## Files
 
-- `index.html`: home page (introduction, selected work, experience, research, education, outside work, contact)
-- `resume.html`: print-friendly résumé
+- `index.html`: home page (introduction, travel globe, selected work, research, career path, outside work, contact)
+- `globe.js`, `globe-data.js`: the draggable travel globe and its baked land dots and places (Natural Earth 1:110m outlines)
+- `resume.html`: résumé that prints as a two-page PDF
 - `llms.txt`: detailed profile written for AI assistants and recruiting agents
 - `photography.html`, `photography.js`, `photography-provenance.json`: photography and the provenance record for each image
-- `travel.html`, `travel.js`: interactive travel map
 - `games.html`: games list
-- `styles.css`: one stylesheet for every page
-- `script.js`: shared behavior (light and dark theme, search on Ctrl K or /, copy email, mobile menu)
-- `theme.js`: sets the theme before the page paints and refuses to render inside another site's frame
+- `styles.css`: one stylesheet for every page, including the résumé print layout
+- `script.js`: shared behavior (mobile menu, copy email, print)
+- `guard.js`: refuses to render inside another site's frame
+- `count.js`: self-hosted GoatCounter script for visit and click counts
 - `assets/fonts/`: self-hosted Geist and Geist Mono, under the SIL Open Font License
 
-Every page carries a Content Security Policy that only allows scripts, styles, fonts, and images from this site.
+Every page carries a Content Security Policy that only allows scripts, styles, fonts, and images from this site, plus GoatCounter for counting.
 - `assets/social-card.png`: link preview image
 
 ## Keeping it accurate
